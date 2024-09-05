@@ -32,13 +32,13 @@
 │   ├── include					src中对应h文件			
 │   ├── logger.cc				日志	
 │   ├── mprpcapplication.cc		框架初始化
-│   ├── mprpcchannel.cc						
-│   ├── mprpcconfig.cc
+│   ├── mprpcchannel.cc			rpc调用
+│   ├── mprpcconfig.cc			配置文件加载(test.conf)
 │   ├── mprpccontroller.cc	
-│   ├── rpcprovider.cc	
+│   ├── rpcprovider.cc			服务注册和发布
 │   ├── zookeeperutil.cc		封装的zk客户端类	
 │   ├── rpcheader.pb.cc
-│   ├── rpcheader.proto			rpc调用
+│   ├── rpcheader.proto			rpc调用序列信息格式
 │   └── CMakeLists.txt
 ├── test           				测试代码(测试protobuf是否能正常使用)
 ├── example        				框架代码使用范例(业务)
